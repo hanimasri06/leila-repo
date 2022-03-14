@@ -1,0 +1,28 @@
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100vh;
+  background: url("../../assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll-area {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-container,
+.scroll-area {
+  z-index: 5;
+  margin: 0 auto;
+}
+
+.img-scroll {
+  width: 100%;
+}
