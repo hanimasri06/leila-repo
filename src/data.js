@@ -45,6 +45,28 @@ const people = [
     email: "jad.alaouji@hotmail.com",
     image: require("./assets/Whataoui.jpeg"),
   },
+  {
+    name: "Maya",
+    paraghraphe: "ستبقي دائمًا في قلوبنا",
+    tel: "+961 71 247 883",
+    email: "jad.alaouji@hotmail.com",
+    image: require("./assets/maya.jpeg"),
+  },
+  {
+    name: "Marwan",
+    paraghraphe: "على خطى ليلى مشينا و سنمشي",
+    tel: "+961 71 247 883",
+    email: "jad.alaouji@hotmail.com",
+    image: require("./assets/Marwan.jpeg"),
+  },
+  {
+    name: "Neemat",
+    paraghraphe:
+      "اكتب لحضرتك يا سيدتي الكريمة هذه الكلمة في عيد المعلم لأعبر لك عن محبتي وشكري الجزيل لما تبذلينه من جهدٍ و تضحية و عطاء من أجلنا.فأنت لست معلمةٌ فحسب بل مربية فاضلة مليئة بالحنانِ والعطاء فضلا عن أسلوبك الرائع في التعليم شكرا بل ألفَ شكر لك. نحنُ لكِ من الشاكرين ولك مني شخصيا ألف تحية وتحية.",
+    tel: "+961 71 247 883",
+    email: "jad.alaouji@hotmail.com",
+    image: null,
+  },
 ];
 
 export { people };
