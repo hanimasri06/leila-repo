@@ -2,9 +2,7 @@ const people = [
   {
     name: "Demy",
     paraghraphe:
-      "لا تنسي اننا لن ننساك . فحتى لو ذهبنا الى اخر قطعة على الارض ، فان قطعة من قلوبنا تعيش معك\
-      “loin des yeux, près du coeur”\
-      ",
+      "لا تنسي اننا لن ننساك . فحتى لو ذهبنا الى اخر قطعة على الارض ، فان قطعة من قلوبنا تعيش معك “loin des yeux, près du coeur”",
     tel: "+96171115055",
     email: "demymaamary@hotmail.com",
     image: require("./assets/demy.jpeg"),
