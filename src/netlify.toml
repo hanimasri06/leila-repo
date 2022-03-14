@@ -1,0 +1,25 @@
+[[redirects]]
+  from = "/"
+  to = "/laki"
+  status = 301
+  force = false
+
+
+[[redirects]]
+  from = "/"
+  to = "/souwar"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/souwar"
+  to = "/laki"
+  status = 301
+  force = false
+
+
+[[redirects]]
+  from = "/laki"
+  to = "/souwar"
+  status = 301
+  force = false

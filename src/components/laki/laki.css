@@ -19,6 +19,8 @@ a {
   grid-template-columns: repeat(auto-fit, 20rem);
   justify-content: center;
   font-family: "El Messiri", sans-serif;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .person {
