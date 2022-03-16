@@ -13,10 +13,15 @@ const Modal = () => {
     >
       <div className="modal-container">
         <h3>{name}</h3>
-        <a href={`mailto:${email}?body=ana ${name} ishtaktou ilayki aydan`}>
-          {email}
+        {email ? (
+          <a href={`mailto:${email}?body=ana ${name} ishtaktou ilayki aydan`}>
+            {email}
+          </a>
+        ) : null}
+
+        <a className="tel" href={`tel:${tel}`}>
+          {tel}
         </a>
-        <a href={`tel:${tel}`}>{tel}</a>
         <button className="close-modal-btn" onClick={closeModal}>
           <FaTimes></FaTimes>
         </button>

@@ -6,6 +6,7 @@ const AppProvider = ({ children }) => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [info, setInfo] = useState({});
+  const [hearts, setIsHeartsOpen] = useState(false);
   const openNavbar = () => {
     setIsNavbarOpen(true);
   };
@@ -19,6 +20,12 @@ const AppProvider = ({ children }) => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+  const openHearts = () => {
+    setIsHeartsOpen(true);
+    setTimeout(() => {
+      setIsHeartsOpen(false);
+    }, 5000);
+  };
 
   return (
     <AppContext.Provider
@@ -31,6 +38,8 @@ const AppProvider = ({ children }) => {
         closeNavbar,
         info,
         setInfo,
+        openHearts,
+        hearts,
       }}
     >
       {children}

@@ -37,3 +37,7 @@
   color: hsl(360, 67%, 44%);
   cursor: pointer;
 }
+
+.tel {
+  direction: ltr;
+}
