@@ -7,7 +7,7 @@ import Modal from "../Modal/Modal.jsx";
 const Laki = () => {
   const { openModal, setInfo } = useGlobalContext();
   return (
-    <div className="container">
+    <div className="laki-container">
       <Modal />
       {people.map((person) => {
         const { name, paraghraphe, tel, email, image } = person;

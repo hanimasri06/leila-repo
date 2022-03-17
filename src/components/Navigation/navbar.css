@@ -120,20 +120,25 @@
 /* --------------------------------- */
 .parallax-container {
   margin: 0;
-  background-color: aliceblue;
 
   height: 100vh;
   width: 100%;
 }
 
 .parallax {
-  background-image: url("/src/assets/image.png");
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url("/src/assets/wp8151545.jpg");
   height: 100%;
   display: flex;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
   align-items: center;
 }
+
 h1 {
   margin: 0;
 }
